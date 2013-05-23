@@ -1,1 +1,1 @@
-This is the compiled cocos-2d pod, so that we don't have to compile/pull the source for most cases
+This is the compiled cocos2d-source, so that projects that use cocos have the option to just pull in libraries + headers.
