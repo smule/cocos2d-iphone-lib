@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
   }
 
   s.author       = { "Smule IOS Team" => "team-ios@smule.com" }
-  s.source         = { :local => "~/Projects/cocos2d-iphone-lib" }
+  s.source         = { :git => "git@github.com:smule/cocos2d-iphone-lib.git", :tag => "smule-cocos2d-iphone-lib-1.0.0" }
+
 
   s.source_files = '**/*.{h,m}'
   s.resources = '**/*.png'
